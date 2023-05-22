@@ -21,11 +21,6 @@ func ResourceAdd(order Order, orders []Order) (*[]Order, error) {
 	return &orders, nil
 }
 
-func ImportState() *[]Order {
-	var orders []Order
-	return &orders
-}
-
 func isStateFileEmpty() bool {
 	stateFile, _ := os.Open("state.json")
 	defer stateFile.Close()
@@ -37,4 +32,9 @@ func isStateFileEmpty() bool {
 		return true
 	}
 	return false
+}
+
+func ImportState() *[]Order {
+	var orders []Order
+	return &orders
 }

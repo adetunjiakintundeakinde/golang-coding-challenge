@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	o "github.com/adetunjiakintundeakinde/terraform-provider-orders/orders"
+	o "github.com/adetunjiakintundeakinde/golang-coding-challenge/order/order"
 )
 
 func main() {
