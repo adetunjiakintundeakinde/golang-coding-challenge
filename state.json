@@ -1,0 +1,52 @@
+{
+  "7a8cf805-9cc4-4c31-9e6e-327cbbf9bfd0": {
+    "date": "2011-01-20",
+    "cost": "1000",
+    "recipient": "Berlin Brandenburg"
+  },
+  "9fad9881-b62f-42ec-bf2b-3f5ee9796383": {
+    "date": "2011-01-22",
+    "cost": "300",
+    "recipient": "California Indiana"
+  },
+  "7d201baa-f972-448f-9918-49823fa30606": {
+    "date": "2011-02-01",
+    "cost": "400",
+    "recipient": "Vienna Milan"
+  },
+  "b50525ce-f746-43ed-935e-46191f513422": {
+    "date": "2011-02-10",
+    "cost": "800",
+    "recipient": "Turin London"
+  },
+  "d49fd8d4-1a0e-4f70-a410-1b196e7fbee3": {
+    "date": "2011-02-15",
+    "cost": "400",
+    "recipient": "Abuja Lagos"
+  },
+  "a03b9b78-e6d8-4d14-8aa8-13b9b0dfa2f4": {
+    "date": "2011-02-20",
+    "cost": "200",
+    "recipient": "Cairo Paris"
+  },
+  "08f01ca2-d885-4075-9d26-14ee204c1e4b": {
+    "date": "2011-03-01",
+    "cost": "100",
+    "recipient": "Nairobi Cape Town"
+  },
+  "4d0ec10c-e470-455d-b89a-dd153b755c90": {
+    "date": "2011-03-10",
+    "cost": "50",
+    "recipient": "Milwaukee Dublin"
+  },
+  "749628d6-1130-4cfd-8239-e83f9fca3e34": {
+    "date": "2011-03-20",
+    "cost": "90",
+    "recipient": "Columbia Texas"
+  },
+  "e4403a8c-6d77-4c4c-8486-bf5baad877fe": {
+    "date": "2011-03-31",
+    "cost": "25",
+    "recipient": "Munich Dortmund"
+  }
+}
