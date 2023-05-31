@@ -22,16 +22,22 @@ func ResourceAdd(order Order, orders []Order) (*[]Order, error) {
 }
 
 func isStateFileEmpty() bool {
+	state := readStateFile()
+
+	if state == "" || state == "{}" {
+		return true
+	}
+	return false
+}
+
+func readStateFile() string {
 	stateFile, _ := os.Open("state.json")
 	defer stateFile.Close()
 
 	bytes, _ := io.ReadAll(stateFile)
 	content := string(bytes)
 
-	if content == "" || content == "{}" {
-		return true
-	}
-	return false
+	return content
 }
 
 func ImportState() *[]Order {
